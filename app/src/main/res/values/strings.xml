@@ -1,6 +1,193 @@
 <resources>
     <string name="app_name">Tour Guide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fast_forward_tour">Fast Forward(&#8230;) Inventing the Future</string>
+    <string name="future_energy_tour">Future Energy Chicago</string>
+    <string name="science_tour">Science Storms</string>
+    <string name="u505_tour">U-505 Submarine</string>
+
+    <!-- Information for the exhibits in the Fast Forward tour. -->
+    <string name="cantu_info">Chef Homaro Cantu was executive chef at Moto Restaurant as well as an
+        innovator looking to take the dining experience to a new level through design and
+        engineering. Cantu filed numerous patents covering diverse fields such as dining items,
+        cookware and edible surfaces. Cantu has also worked with NASA to develop a
+        "food replicator"—a converted ink-jet printer that produces edible prints. On display in the
+        exhibit is a case that he used to conceal his patent-pending process for printing edible
+        paper, as well as some of his innovative utensil designs. Throughout his work, Cantu looked
+        for ways to help people: to change the way we feed people in crisis, disseminate medicine
+        to stem an epidemic, sustain astronauts on long missions and more. He believed his work with
+        the West African “miracle berry,” which alters how your taste buds perceived sweet and sour,
+        could help diabetics, people in regions where available food is edible but bitter or bland,
+        and those whose ability to taste has been affected.
+    </string>
+    <string name="de_grey_info">Trained as both a computer scientist and a biologist, Aubrey de Grey
+        is conducting biological research in order to radically extend the human life span. He is
+        the founder of the Methuselah Mouse Prize, a scientific competition designed to draw
+        attention to the ability of new technologies to slow and even reverse the damage of the
+        aging process.
+    </string>
+    <string name="despommier_info">Dickson Despommier is leader of the visionary Vertical Farm
+        Project, which proposes to grow food in high-rise buildings in urban centers, helping to
+        feed increasing urban populations while also allowing sprawling farmland to be returned to
+        nature. Inside the gallery, guests will see a large scale model of Despommier\'s vertical
+        farm concept and also play an interactive game that will teach them more about the
+        possibilities of urban agriculture.
+    </string>
+    <string name="diamandis_info">As chairman and CEO of the X-Prize Foundation, Peter Diamandis
+        offers prizes of $10 million or more for projects that benefit humanity. He is also CEO of
+        Zero Gravity Corporation, a commercial space company that launches FAA-certified parabolic
+        weightless flights for the general public using a Boeing 727 aircraft. More recently, he
+        co-founded the Rocket Racing League, a hybrid of Indy car racing and rocket-powered flight.
+    </string>
+    <string name="howard_info">Ayanna Howard is associate professor and founder of the
+        Human-Automation Systems (HumAnS) Lab at Georgia Institute of Technology. Her goal is to
+        make robots better at helping people—better at not only gathering information, but also
+        evaluating it. Her work at NASA\'s Jet Propulsion Lab includes the SmartNav Mars rover,
+        which is designed to be more independent in its explorations of the Red Planet. As well,
+        her trio of Snomote rovers will collect data in regions of extreme temperatures like
+        Antarctica, which will help develop solutions to climate change. A model of a Snomote rover
+        is on display.
+    </string>
+    <string name="johnson_info">Lonnie Johnson is best known as the rocket scientist who invented a
+        toy—the Super Soaker® Water Gun—and he has more than 100 patents in his name. In Fast
+        Forward, you can see Johnson\'s first prototype for the Super Soaker, made from a used water
+        bottle, some plastic tubing and duct tape. With his start-up companies, Excellatron Solid
+        State and Johnson Electro-Mechanical Systems, Johnson is now developing thin film batteries
+        for cell phones and aerospace applications.
+    </string>
+    <string name="jorda_info">Sergi Jordà is part of the Music and Technology Group at the Pompeu
+        Fabra University in Barcelona, where he directed the development of the Reactable, a
+        multi-user, interactive, improvisational electronic musical instrument, now used in musician
+        Björk\'s world tour. The instrument offers seemingly infinite musical possibilities, and you
+        can try your hand at making music with Jordà\'s Reactable in the Fast Forward gallery.
+    </string>
+    <string name="kamkwamba_info">It only took 20-year-old William Kamkwamba a library book, some
+        blue-gum trees, discarded bicycle parts and an inspired idea to become a sensation in his
+        home country. Kamkwamba, who lives in a small African village in Malawi, began building
+        windmills at age 14, after he had to drop of out high school because his family could not
+        afford the tuition of $80 a year. Now his family has three windmills on their property,
+        supplying power to their home for the first time. Since then, Kamkwamba has offered his
+        assistance to others, helped build a windmill for his local school and worked on powering
+        his entire village.
+    </string>
+    <string name="maisonnier_info">For over twenty years, Bruno Maisonnier was convinced that robotics
+        would be the next revolutionary technology. In 2005, utilizing skills he developed working
+        in the IT and banking industries, Bruno followed his dream and founded Aldebaran Robotics
+        to produce autonomous humanoid robots that can contribute to the well-being of humans. The
+        NAO robot created by Aldebaran is used in hundreds of labs and universities in over 30
+        countries for cutting-edge research in robotics, artificial intelligence and computer
+        science as well as sociology and medicine. See a NAO on display in the Fast Forward gallery.
+    </string>
+    <string name="simpson_info">Zack Simpson believes that art can be both playful and
+        thought-provoking. Using unique technologies incorporating the entire body, a broad
+        knowledge of science and a long history of game development, his company Mine-Control turns
+        viewers into participants and teaches them something along the way. He is also a fellow at
+        the Center for Systems and Synthetic Biology at University of Texas-Austin. In Fast Forward,
+        experiment with Simpson\'s Mariposa, a wall projection interactive, to watch as butterflies
+        land on your shadow.
+    </string>
+
+    <!-- Information for the exhibits in the Fast Forward tour. -->
+    <string name="future_house">Play the role of an energy consultant as your team explores a
+        virtual house, inside and out, to find energy savings.</string>
+    <string name="future_neighborhood">Try urban planning: arrange homes, schools and businesses to
+        minimize commutes and maximize efficiency.</string>
+    <string name="future_car">Be tomorrow\'s automobile engineer: modify options like engine types
+        and body materials to see energy savings.</string>
+    <string name="future_power">As power engineers, your team selects sources to meet energy demand,
+        cut pollution and stay on budget.</string>
+    <string name="future_transportation">Create a transit network of buses, trains and bike paths to
+        reduce traffic, link destinations and improve city life.</string>
+
+    <!-- Information for the exhibits in the Science Storms tour. -->
+    <string name="avalanche_info">Avalanches—or flows of granular material—offer stunning examples
+        of how forces such as friction and gravity can act on an object, affecting its motion. Watch
+        patterns of cascading granules change as you adjust the speed of the rotating Avalanche
+        Disk. Find the right angle and velocity needed to launch a tennis ball projectile into a net
+        across the exhibit hall. Repeat Leonardo da Vinci\'s friction studies for yourself, conduct
+        Galileo's inclined plane experiment, and observe the fascinating "Brazil nut effect."
+    </string>
+    <string name="atoms_info">Atoms are the basic building blocks of matter, and determine the
+        properties and behaviors of all materials. Experiment with amazing substances like shape
+        memory alloy and ferrofluid to discover why their atomic arrangements make them behave the
+        way they do. Take a virtual journey into the history of atomic theory. Get your hands on a
+        virtual chemistry set: choose elements from a digitally projected periodic table, and then
+        drag them across the tabletop to combine them and see what compounds can be made.
+    </string>
+    <string name="lightning_info">A lightning strike can inspire emotional reactions like few other
+        phenomena in nature. While we\'ve learned much since the earliest lightning experiments,
+        there\'s still plenty to discover about electrical charges and magnetism. Witness dramatic,
+        high-voltage lightning as you sit below a large Tesla coil. Use electromagnetism to launch a
+        ring 30 feet in the air, and build and propel a maglev train car that floats over the track,
+        thanks to magnetism.
+    </string>
+    <string name="fire_info">Fire is a chemical reaction that has fascinated humans for millennia.
+        Get up close to fire to investigate how fuel, oxygen and heat combine to create a flame.
+        Test virtual sources of combustion to see what common and unusual substances can be used to
+        power cars and rockets. Use the “flame test” to create colorful fireworks with chemicals
+        that burn in vibrant colors. And learn how fires in nature can sometimes be helpful and
+        sometimes harmful, and what tools we use to manage them.
+    </string>
+    <string name="sunlight_info">Sunlight takes just over eight minutes to reach us from the sun,
+        and brings plenty of heat, energy and color on the trip. Follow the lead of curious
+        scientists and identify, harness and study the properties of this abundant resource.
+        Sunlight streams through the Museum’s roof so that you can split white light into colors to
+        recreate Isaac Newton’s prism experiments, focus the sun’s energy through a Fresnel lens to
+        heat a liquid, and convert it into power to race model cars.
+    </string>
+    <string name="tornado_info">From palm trees in a typhoon to pinwheels on a blustery day,
+        watching air in motion can be hypnotic. In its most powerful forms, wind can also devastate
+        in a matter of moments. In the centerpiece of Science Storms, you\'ll be blown away by the
+        tornado, a 40-foot vortex of swirling air and vapor you can study and manipulate. Nearby,
+        you can also create convection by heating the air inside large balloons and observe the
+        effect with thermal cameras. Or team up with friends to ride along with storm chasers in a
+        virtual race to intercept severe weather.
+    </string>
+    <string name="tsunami_info">A wave is energy being moved from place to place through a medium
+        such as air or water. Discover the power and motion of waves and their fundamental
+        properties. You can design your own wave by choosing variables like wavelength and
+        amplitude, and then launch it down the length of a 30-foot wave tank. Generate waves in
+        round ripple tanks to watch them interact with objects or other waves. Stand below a
+        20-foot-tall rope that oscillates as you vary the amplitude and frequency to produce a
+        striking, interactive light sculpture, revealing the art within waves.
+    </string>
+
+    <!-- Information for the exhibits in the U-505 Submarine tour. -->
+    <string name="the_u505_exhibit_info">The historic submarine now resides in an amazing indoor
+        exhibition showcasing the story of its capture and exploring the technology and living
+        conditions aboard the vessel.
+        \n
+        \n
+        With multiple interactive units, archival media, videos narrated by Bill Kurtis and nearly
+        200 artifacts, the U-505 Submarine exhibit is a treasure trove of history as well as a
+        National Historic Landmark.
+    </string>
+    <string name="restoration_info">A typical German sub was built to last four years. Fifty years
+        of turbulent Chicago weather may have proven to be the U-505\'s most brutal enemy. Indeed,
+        left untreated and outdoors, it would have been unsafe for tours by 2004. And so, in 1997,
+        the Museum launched the largest exhibit conservation project in its history—to preserve the
+        U-505 and move it indoors to a climate-controlled environment.
+        \n
+        \n
+        A large crew spent five months welding, cleaning, repairing and painting the hull.
+        Brackets, stringers and ribs were re-manufactured using original construction drawings
+        recovered from Germany and the patterns from badly eroded parts. It was difficult to find
+        the sub\'s original color. The Museum conservation team used photos, a German archive
+        painting manual, veteran recollections and more, so the sub could be conserved
+        authentically. Ballast by ballast, tank by tank, the team installed reinforcements,
+        focusing on jacking points and cradle locations. Ultimately, it took more than two years
+        to ensure that the U-505 was structurally sound.
+    </string>
+    <string name="interactives_info">Aboard a re-created sub environment, climb through the hatch
+        and experience the sights, sounds and feel that was reality for the U-505\'s 59 sailors
+        during wartime.
+        \n
+        \n
+        Try to maneuver in the sub\'s tiny galley, or kitchen, only big enough for one person to
+        stand. Or take your turn in one of the sub\'s "hot bunks." Only 35 bunks were on board the
+        U-505, and at the time of the vessel's capture, there were 59 sailors. This meant that most
+        of the men had to "hot bunk," or take turns sleeping in beds still warm from the use of a
+        fellow crew member.
+    </string>
+
 </resources>
