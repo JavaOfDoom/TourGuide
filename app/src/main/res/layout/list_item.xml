@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text_container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    tools:ignore="UseCompoundDrawables">
 
     <ImageView
         android:id="@+id/exhibit_photo"
-        android:layout_width="88dp"
-        android:layout_height="88dp"
+        android:layout_width="@dimen/image_item_height"
+        android:layout_height="@dimen/image_item_height"
         android:layout_gravity="center_vertical"
+        android:padding="8dp"
         tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/exhibit_information"
+        style="@style/CategoryStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        tools:text="Exhibit Information"/>
+        android:padding="8dp"
+        tools:text="Exhibit Information" />
 
 </LinearLayout>

@@ -38,7 +38,7 @@ public class FastForwardFragment extends Fragment {
         tours.add(new Tour(getString(R.string.maisonnier_info), R.drawable.csm_bruno));
         tours.add(new Tour(getString(R.string.simpson_info), R.drawable.csm_simpson));
 
-        TourAdapter adapter = new TourAdapter(getActivity(), tours);
+        TourAdapter adapter = new TourAdapter(getActivity(), tours, R.color.fast_forward_color);
 
         ListView listView = rootView.findViewById(R.id.list);
 

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#093F7A</color>
+    <color name="colorPrimaryDark">#0A2254</color>
+    <color name="colorAccent">#2AACEF</color>
+    <color name="fast_forward_color">#861793</color>
+    <color name="future_energy_color">#6E9E2A</color>
+    <color name="science_storms_color">#05399E</color>
+    <color name="u505_submarine_color">#2AA9E0</color>
+
 </resources>

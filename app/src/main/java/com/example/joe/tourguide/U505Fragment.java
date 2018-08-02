@@ -31,7 +31,7 @@ public class U505Fragment extends Fragment {
         tours.add(new Tour(getString(R.string.restoration_info), R.drawable.csm_u505_restoration));
         tours.add(new Tour(getString(R.string.interactives_info), R.drawable.csm_u505_interactives));
 
-        TourAdapter adapter = new TourAdapter(getActivity(), tours);
+        TourAdapter adapter = new TourAdapter(getActivity(), tours, R.color.u505_submarine_color);
 
         ListView listView = rootView.findViewById(R.id.list);
 

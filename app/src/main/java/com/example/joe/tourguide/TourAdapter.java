@@ -1,6 +1,7 @@
 package com.example.joe.tourguide;
 
 import android.app.Activity;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,8 +13,11 @@ import java.util.ArrayList;
 
 public class TourAdapter extends ArrayAdapter<Tour> {
 
-    public TourAdapter(Activity context, ArrayList<Tour> tours) {
+    private int mColorResourceId;
+
+    public TourAdapter(Activity context, ArrayList<Tour> tours, int colorResourceId) {
         super(context, 0, tours);
+        mColorResourceId = colorResourceId;
     }
 
     @Override
@@ -27,10 +31,18 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         Tour currentExhibit = getItem(position);
 
         TextView exhibitTextView = listItemView.findViewById(R.id.exhibit_information);
+
         exhibitTextView.setText(currentExhibit.getExhibitInfo());
 
         ImageView imageResourceView = listItemView.findViewById(R.id.exhibit_photo);
+
         imageResourceView.setImageResource(currentExhibit.getImageResourceId());
+
+        View textContainer = listItemView.findViewById(R.id.text_container);
+
+        int color = ContextCompat.getColor(getContext(), mColorResourceId);
+
+        textContainer.setBackgroundColor(color);
 
         return listItemView;
     }

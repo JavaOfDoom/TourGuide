@@ -33,7 +33,7 @@ public class FutureEnergyFragment extends Fragment {
         tours.add(new Tour(getString(R.string.future_power), R.drawable.csm_futureenergy_power));
         tours.add(new Tour(getString(R.string.future_transportation), R.drawable.csm_futureenergy_transportation));
 
-        TourAdapter adapter = new TourAdapter(getActivity(), tours);
+        TourAdapter adapter = new TourAdapter(getActivity(), tours, R.color.future_energy_color);
 
         ListView listView = rootView.findViewById(R.id.list);
 

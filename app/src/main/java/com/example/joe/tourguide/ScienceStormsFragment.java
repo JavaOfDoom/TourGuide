@@ -35,7 +35,7 @@ public class ScienceStormsFragment extends Fragment {
         tours.add(new Tour(getString(R.string.tornado_info), R.drawable.csm_sciencestorms_tornado));
         tours.add(new Tour(getString(R.string.tsunami_info), R.drawable.csm_sciencestorms_tsunami));
 
-        TourAdapter adapter = new TourAdapter(getActivity(), tours);
+        TourAdapter adapter = new TourAdapter(getActivity(), tours, R.color.science_storms_color);
 
         ListView listView = rootView.findViewById(R.id.list);
 
